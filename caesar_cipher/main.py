@@ -15,6 +15,7 @@ def encrypt(plain_text, shift_amount):
 
 
 def decrypt(encoded_text, un_shift):
+    """Decrypts the text based on shift amount"""
     decoded_text = ""
     for char in encoded_text:
         ind = alphabet.index(char)
